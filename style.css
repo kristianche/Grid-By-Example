@@ -1,0 +1,66 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 5fr 2fr;
+}
+
+header{
+    background-image: url(https://gridbyexample.com/img/inflicted.png);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+button{
+    width: 11rem;
+    height: 1.7rem;
+    justify-self: end;
+    margin-right: 1.2rem;
+    margin-top: 1.3rem;
+    background-color: black;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    grid-template-rows: 1fr;
+    padding-inline: 0;
+}
+
+button:hover{
+    background-color: #333;
+}
+
+main{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: aqua;
+}
+
+i{
+    color: white;
+    padding: 0.2rem;
+    padding-left: 0.6rem;
+    font-size: 1.2rem;
+    margin-left: 0;
+}
+
+button p{
+    color: white;
+    justify-self: start;
+    align-self: center;
+    margin: 0;
+    padding-left: 0.2rem;
+}
+
