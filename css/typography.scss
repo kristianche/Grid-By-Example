@@ -1,0 +1,28 @@
+$main-font-size: 16px;
+
+html {
+    font-size: $main-font-size;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 27px;
+}
+
+.inner-div p{
+    font-size: $main-font-size;
+}
+
+footer{
+    p{
+        font-size: 13.6px;
+    }
+
+    a{
+        font-size: 13.6px;
+    }
+
+    li{
+        font-size: 13.6px;
+    }
+}

@@ -1,16 +1,24 @@
 html {
-    font-size: 16px;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-h2{
-    font-size: 27px;
+h2 {
+  font-size: 27px;
 }
 
-.inner-div p{
-    font-size: 16px;
+.inner-div p {
+  font-size: 16px;
 }
 
-footer p, footer a, footer ul li{
-    font-size: 13.6px;
+footer p {
+  font-size: 13.6px;
 }
+footer a {
+  font-size: 13.6px;
+}
+footer li {
+  font-size: 13.6px;
+}
+
+/*# sourceMappingURL=typography.css.map */
