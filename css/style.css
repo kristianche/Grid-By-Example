@@ -1,9 +1,6 @@
 html{
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    font-size: 100%;
-    font-family: "Open Sans", Arial, Helvetica, Sans-serif;
 }
 
 body{
@@ -40,14 +37,6 @@ button:hover{
     background-color: #333;
 }
 
-main{
-    background-color: aliceblue;
-}
-
-footer{
-    background-color: aqua;
-}
-
 i{
     color: white;
     padding: 0.2rem;
@@ -68,14 +57,13 @@ button a{
 .header-text{
     justify-self: start;
     align-self: start;
-    margin-left: 9.6rem;
-    margin-top: 4.7rem;
-    margin-bottom: 1.5rem;
+    margin-left: 9.4rem;
+    margin-top: 3.9rem;
+    margin-bottom: 1.4rem;
 }
 
 .header-text a{
     color: white;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     text-decoration: none;
@@ -84,7 +72,7 @@ button a{
 .header-text p{
     color: white;
     font-size: 100%;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     margin-bottom: 0;
     text-decoration: solid;
 }
@@ -108,8 +96,6 @@ nav{
 .navbar-links li a{
     text-decoration: none;
     color: black;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: 16px;
     font-weight: 700;
     justify-self: center;
     align-self: center;
@@ -152,13 +138,11 @@ main{
 
 .inner-div{
     width: 90%;
-    margin-left: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-
+    margin-left: 1rem;
 }
 
 .inner-div h1{
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-size: 2.5rem;
     font-weight: 700;
     margin-top: 20px;
@@ -170,9 +154,8 @@ main{
 }
 
 #main-div-1 p{
-    font-size: 16px;
     margin-top: 0;
-    line-height: 1.9rem;
+    line-height: 1.625rem;;
     width: 100%;
 }
 
@@ -190,6 +173,10 @@ main{
     padding-top: 0.5rem;
     padding-right: 3rem;
     
+}
+
+#main-div-2 h2{
+    margin-top: 12px;
 }
 
 .main-div a{
@@ -286,9 +273,13 @@ main{
 .main-div-2{
     margin-bottom: 1.5rem;
     padding-left: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 0;
     padding-right: 2.2rem;
     padding-bottom: 1.5rem;
+}
+
+.main-div-2 h2{
+    margin-top: 12px;
 }
 
 footer{
@@ -303,13 +294,24 @@ footer{
 .footer-div{
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 3px;
-    padding: 1rem;
+    padding-inline: 1rem;
     width: 82%;
     margin-inline: 55px;
     color: black;
+    padding-block: 5px;
 }
 
 footer a{
     color: black;
     text-decoration: underline;
 }
+
+footer ul li{
+    margin-bottom: 6px;
+}
+
+footer ul li:last-child{
+    margin-bottom: 2rem;
+}
+
+
