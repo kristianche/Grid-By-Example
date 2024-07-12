@@ -1,0 +1,29 @@
+footer {
+  background-image: url(https://gridbyexample.com/img/inflicted.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+  padding-block: 1rem;
+}
+footer .footer-div {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  padding-inline: 1rem;
+  width: 82%;
+  margin-inline: 55px;
+  color: black;
+  padding-block: 5px;
+}
+footer a {
+  color: black;
+  text-decoration: underline;
+}
+footer li {
+  margin-bottom: 6px;
+}
+footer li:last-child {
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=footer.css.map */
